@@ -1,104 +1,155 @@
-# Coursera Module 3 Assignment
-Coursera course: HTML, CSS, and Javascript for Web Developers
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-Woo-hoo! MORE CODING!!! Exciting! :-)
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-Time to complete: About 1 hour or less.
+    <title>Boostrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
 
-Ask questions in Discussions if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone's help) can be a very valuable learning experience!
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html">Food, LLC</a>
+          </div>
+          
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+        
+      </div>
 
-Don't get scared by the number of points below. Most of it is NOT graded and is optional for you to try on your own.
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+           <li>
+             <a href="#section-1">Chicken</a>
+           </li>
+           <li>
+             <a href="#section-2">Beaf</a>
+           </li>
+           <li>
+             <a href="#section-3">Sushi</a>
+           </li>
+         </ul><!-- #nav-list -->
+       </div><!-- .collapse .navbar-collapse -->
 
-Here is what you will need to complete the assignment:
+      
+    </nav>
+  </header>
+  
+  <div>
+      <h2 id="page-heading" class="text-center">Our Menu</h2>
+  </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <section id="section-1">
+              <h3 class="text-center">Chicken</h3>
+              <p>
+                  Bacon ipsum dolor amet ball tip bacon buffalo, t-bone pig venison ham capicola boudin burgdoggen andouille ham hock beef fatback. Cow spare ribs kevin shoulder pastrami, drumstick biltong frankfurter cupim burgdoggen pork. Corned beef alcatra boudin ground round, burgdoggen andouille cow leberkas flank tail filet mignon salami doner pork belly buffalo. Venison flank ham jowl, frankfurter shoulder cupim pork belly tri-tip swine buffalo porchetta landjaeger corned beef pancetta. Strip steak flank corned beef kevin swine sirloin. Rump chicken pastrami, hamburger kevin doner beef shankle filet mignon tongue pork pork chop.
+          
+                  Jerky pancetta frankfurter beef ribs meatloaf porchetta filet mignon t-bone. Prosciutto porchetta picanha cupim pancetta. Kevin drumstick pork loin tail jowl capicola. Filet mignon porchetta chicken, landjaeger picanha swine shoulder fatback corned beef kielbasa pancetta.
+                  
+                  Flank brisket pork loin ham hock tenderloin burgdoggen biltong jerky meatloaf sirloin porchetta short loin alcatra shank pork chop. Rump flank beef ribs, tri-tip burgdoggen salami meatball prosciutto short ribs frankfurter jowl tenderloin shoulder. Meatball frankfurter kielbasa, cow alcatra pork andouille pork chop fatback pork belly. Turkey tail burgdoggen, biltong bacon leberkas hamburger capicola landjaeger drumstick. Landjaeger tri-tip ground round porchetta, hamburger brisket alcatra ham short ribs cupim. Boudin shankle turkey pork belly hamburger biltong capicola ham pork kielbasa frankfurter porchetta cow fatback brisket.
+                  
+                  Kevin rump ball tip meatball flank pork chop cow bacon prosciutto turducken burgdoggen. Meatloaf salami bacon buffalo pancetta tail cow pastrami shankle tongue pork chop beef ribs leberkas. Strip steak tongue salami frankfurter, leberkas shank t-bone beef ribs pork chop ribeye tri-tip shankle. Bresaola landjaeger boudin, rump corned beef leberkas ground round alcatra sausage tail shankle spare ribs bacon. Corned beef short loin beef, sausage ham hock tail jerky meatball biltong pancetta tongue flank pastrami bresaola.
+                  
+                  Chuck picanha pork belly ham hock swine capicola rump bacon alcatra. Boudin kielbasa andouille bacon hamburger flank shank turkey jerky ball tip picanha burgdoggen short loin. Leberkas biltong prosciutto shoulder buffalo turkey ham hock pork tongue. Salami short loin bresaola, corned beef biltong drumstick flank boudin. Drumstick short loin bacon doner beef.
+                  
+                  Chicken boudin ground round pig leberkas hamburger jerky prosciutto burgdoggen meatball sausage shank pork belly rump short ribs. Landjaeger bresaola strip steak drumstick pancetta. Boudin porchetta kevin, swine jowl strip steak leberkas. Doner pork chop sausage meatloaf ham hock. Porchetta tail sausage ham jerky, alcatra boudin cupim filet mignon pork belly. Beef leberkas short ribs ribeye cow turkey. Tail shankle hamburger sausage, tenderloin spare ribs flank ribeye kevin shoulder alcatra swine.
+                  
+                  Sausage pig doner pork chop t-bone, sirloin shank bresaola prosciutto beef ribs kielbasa burgdoggen pastrami turducken spare ribs. Venison strip steak meatloaf buffalo, ham shankle beef bresaola t-bone flank beef ribs capicola. Turducken jerky jowl salami kevin picanha. Landjaeger hamburger rump kielbasa swine chuck andouille capicola short loin t-bone doner fatback. Pork loin cow filet mignon, landjaeger cupim turducken meatloaf brisket biltong pastrami kielbasa.
+                  
+                  Chicken beef ribs pancetta bacon pig brisket boudin, turducken pork belly ham hock burgdoggen leberkas. Meatball cow bacon pancetta drumstick pork jowl kielbasa. Short loin alcatra salami tenderloin pork loin. Pork belly chuck biltong landjaeger flank.
+                  
+                  T-bone doner cupim, kielbasa short loin bacon flank venison shank ground round landjaeger strip steak pork belly. Alcatra pork belly sirloin strip steak sausage meatball, rump landjaeger short loin. Porchetta picanha jerky fatback pastrami meatloaf drumstick chuck beef. Spare ribs ham turkey bacon meatball burgdoggen capicola alcatra pastrami tongue frankfurter chicken fatback. Pork loin tail filet mignon, pig turkey pastrami pork pork chop venison.
+                  
+                  Short ribs picanha burgdoggen short loin beef ribs sausage filet mignon, ham tenderloin shank biltong t-bone. Tri-tip tongue pig kielbasa, venison landjaeger jerky corned beef. Ham swine ball tip brisket spare ribs pancetta salami tongue sausage buffalo capicola. Ham pastrami meatball pork chop turducken brisket leberkas frankfurter pork loin ball tip tri-tip. Capicola drumstick picanha bacon sirloin, frankfurter bresaola tail short ribs leberkas spare ribs turkey. Kielbasa pancetta flank, ball tip boudin pork bresaola. Beef pig kevin andouille strip steak jowl.
 
-(If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
+                  <br>(End of Chicken section)<a href="#top"> Back To Top</a>
+                </p>
+          </section>
+            
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <section id="section-2">
+              <h3 class="text-center">Beef</h3>
+              <p>
+                  Bacon ipsum dolor amet ball tip bacon buffalo, t-bone pig venison ham capicola boudin burgdoggen andouille ham hock beef fatback. Cow spare ribs kevin shoulder pastrami, drumstick biltong frankfurter cupim burgdoggen pork. Corned beef alcatra boudin ground round, burgdoggen andouille cow leberkas flank tail filet mignon salami doner pork belly buffalo. Venison flank ham jowl, frankfurter shoulder cupim pork belly tri-tip swine buffalo porchetta landjaeger corned beef pancetta. Strip steak flank corned beef kevin swine sirloin. Rump chicken pastrami, hamburger kevin doner beef shankle filet mignon tongue pork pork chop.
+          
+                  Jerky pancetta frankfurter beef ribs meatloaf porchetta filet mignon t-bone. Prosciutto porchetta picanha cupim pancetta. Kevin drumstick pork loin tail jowl capicola. Filet mignon porchetta chicken, landjaeger picanha swine shoulder fatback corned beef kielbasa pancetta.
+                  
+                  Flank brisket pork loin ham hock tenderloin burgdoggen biltong jerky meatloaf sirloin porchetta short loin alcatra shank pork chop. Rump flank beef ribs, tri-tip burgdoggen salami meatball prosciutto short ribs frankfurter jowl tenderloin shoulder. Meatball frankfurter kielbasa, cow alcatra pork andouille pork chop fatback pork belly. Turkey tail burgdoggen, biltong bacon leberkas hamburger capicola landjaeger drumstick. Landjaeger tri-tip ground round porchetta, hamburger brisket alcatra ham short ribs cupim. Boudin shankle turkey pork belly hamburger biltong capicola ham pork kielbasa frankfurter porchetta cow fatback brisket.
+                  
+                  Kevin rump ball tip meatball flank pork chop cow bacon prosciutto turducken burgdoggen. Meatloaf salami bacon buffalo pancetta tail cow pastrami shankle tongue pork chop beef ribs leberkas. Strip steak tongue salami frankfurter, leberkas shank t-bone beef ribs pork chop ribeye tri-tip shankle. Bresaola landjaeger boudin, rump corned beef leberkas ground round alcatra sausage tail shankle spare ribs bacon. Corned beef short loin beef, sausage ham hock tail jerky meatball biltong pancetta tongue flank pastrami bresaola.
+                  
+                  Chuck picanha pork belly ham hock swine capicola rump bacon alcatra. Boudin kielbasa andouille bacon hamburger flank shank turkey jerky ball tip picanha burgdoggen short loin. Leberkas biltong prosciutto shoulder buffalo turkey ham hock pork tongue. Salami short loin bresaola, corned beef biltong drumstick flank boudin. Drumstick short loin bacon doner beef.
+                  
+                  Chicken boudin ground round pig leberkas hamburger jerky prosciutto burgdoggen meatball sausage shank pork belly rump short ribs. Landjaeger bresaola strip steak drumstick pancetta. Boudin porchetta kevin, swine jowl strip steak leberkas. Doner pork chop sausage meatloaf ham hock. Porchetta tail sausage ham jerky, alcatra boudin cupim filet mignon pork belly. Beef leberkas short ribs ribeye cow turkey. Tail shankle hamburger sausage, tenderloin spare ribs flank ribeye kevin shoulder alcatra swine.
+                  
+                  Sausage pig doner pork chop t-bone, sirloin shank bresaola prosciutto beef ribs kielbasa burgdoggen pastrami turducken spare ribs. Venison strip steak meatloaf buffalo, ham shankle beef bresaola t-bone flank beef ribs capicola. Turducken jerky jowl salami kevin picanha. Landjaeger hamburger rump kielbasa swine chuck andouille capicola short loin t-bone doner fatback. Pork loin cow filet mignon, landjaeger cupim turducken meatloaf brisket biltong pastrami kielbasa.
+                  
+                  Chicken beef ribs pancetta bacon pig brisket boudin, turducken pork belly ham hock burgdoggen leberkas. Meatball cow bacon pancetta drumstick pork jowl kielbasa. Short loin alcatra salami tenderloin pork loin. Pork belly chuck biltong landjaeger flank.
+                  
+                  T-bone doner cupim, kielbasa short loin bacon flank venison shank ground round landjaeger strip steak pork belly. Alcatra pork belly sirloin strip steak sausage meatball, rump landjaeger short loin. Porchetta picanha jerky fatback pastrami meatloaf drumstick chuck beef. Spare ribs ham turkey bacon meatball burgdoggen capicola alcatra pastrami tongue frankfurter chicken fatback. Pork loin tail filet mignon, pig turkey pastrami pork pork chop venison.
+                  
+                  Short ribs picanha burgdoggen short loin beef ribs sausage filet mignon, ham tenderloin shank biltong t-bone. Tri-tip tongue pig kielbasa, venison landjaeger jerky corned beef. Ham swine ball tip brisket spare ribs pancetta salami tongue sausage buffalo capicola. Ham pastrami meatball pork chop turducken brisket leberkas frankfurter pork loin ball tip tri-tip. Capicola drumstick picanha bacon sirloin, frankfurter bresaola tail short ribs leberkas spare ribs turkey. Kielbasa pancetta flank, ball tip boudin pork bresaola. Beef pig kevin andouille strip steak jowl.
+                  <br>(End of Beef section)<a href="#top"> Back To Top</a>
+                </p>
+          </section>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <section id="section-3">
+              <h3 class="text-center">Sushi</h3>
+              <p>
+                  Bacon ipsum dolor amet ball tip bacon buffalo, t-bone pig venison ham capicola boudin burgdoggen andouille ham hock beef fatback. Cow spare ribs kevin shoulder pastrami, drumstick biltong frankfurter cupim burgdoggen pork. Corned beef alcatra boudin ground round, burgdoggen andouille cow leberkas flank tail filet mignon salami doner pork belly buffalo. Venison flank ham jowl, frankfurter shoulder cupim pork belly tri-tip swine buffalo porchetta landjaeger corned beef pancetta. Strip steak flank corned beef kevin swine sirloin. Rump chicken pastrami, hamburger kevin doner beef shankle filet mignon tongue pork pork chop.
+          
+                  Jerky pancetta frankfurter beef ribs meatloaf porchetta filet mignon t-bone. Prosciutto porchetta picanha cupim pancetta. Kevin drumstick pork loin tail jowl capicola. Filet mignon porchetta chicken, landjaeger picanha swine shoulder fatback corned beef kielbasa pancetta.
+                  
+                  Flank brisket pork loin ham hock tenderloin burgdoggen biltong jerky meatloaf sirloin porchetta short loin alcatra shank pork chop. Rump flank beef ribs, tri-tip burgdoggen salami meatball prosciutto short ribs frankfurter jowl tenderloin shoulder. Meatball frankfurter kielbasa, cow alcatra pork andouille pork chop fatback pork belly. Turkey tail burgdoggen, biltong bacon leberkas hamburger capicola landjaeger drumstick. Landjaeger tri-tip ground round porchetta, hamburger brisket alcatra ham short ribs cupim. Boudin shankle turkey pork belly hamburger biltong capicola ham pork kielbasa frankfurter porchetta cow fatback brisket.
+                  
+                  Kevin rump ball tip meatball flank pork chop cow bacon prosciutto turducken burgdoggen. Meatloaf salami bacon buffalo pancetta tail cow pastrami shankle tongue pork chop beef ribs leberkas. Strip steak tongue salami frankfurter, leberkas shank t-bone beef ribs pork chop ribeye tri-tip shankle. Bresaola landjaeger boudin, rump corned beef leberkas ground round alcatra sausage tail shankle spare ribs bacon. Corned beef short loin beef, sausage ham hock tail jerky meatball biltong pancetta tongue flank pastrami bresaola.
+                  
+                  Chuck picanha pork belly ham hock swine capicola rump bacon alcatra. Boudin kielbasa andouille bacon hamburger flank shank turkey jerky ball tip picanha burgdoggen short loin. Leberkas biltong prosciutto shoulder buffalo turkey ham hock pork tongue. Salami short loin bresaola, corned beef biltong drumstick flank boudin. Drumstick short loin bacon doner beef.
+                  
+                  Chicken boudin ground round pig leberkas hamburger jerky prosciutto burgdoggen meatball sausage shank pork belly rump short ribs. Landjaeger bresaola strip steak drumstick pancetta. Boudin porchetta kevin, swine jowl strip steak leberkas. Doner pork chop sausage meatloaf ham hock. Porchetta tail sausage ham jerky, alcatra boudin cupim filet mignon pork belly. Beef leberkas short ribs ribeye cow turkey. Tail shankle hamburger sausage, tenderloin spare ribs flank ribeye kevin shoulder alcatra swine.
+                  
+                  Sausage pig doner pork chop t-bone, sirloin shank bresaola prosciutto beef ribs kielbasa burgdoggen pastrami turducken spare ribs. Venison strip steak meatloaf buffalo, ham shankle beef bresaola t-bone flank beef ribs capicola. Turducken jerky jowl salami kevin picanha. Landjaeger hamburger rump kielbasa swine chuck andouille capicola short loin t-bone doner fatback. Pork loin cow filet mignon, landjaeger cupim turducken meatloaf brisket biltong pastrami kielbasa.
+                  
+                  Chicken beef ribs pancetta bacon pig brisket boudin, turducken pork belly ham hock burgdoggen leberkas. Meatball cow bacon pancetta drumstick pork jowl kielbasa. Short loin alcatra salami tenderloin pork loin. Pork belly chuck biltong landjaeger flank.
+                  
+                  T-bone doner cupim, kielbasa short loin bacon flank venison shank ground round landjaeger strip steak pork belly. Alcatra pork belly sirloin strip steak sausage meatball, rump landjaeger short loin. Porchetta picanha jerky fatback pastrami meatloaf drumstick chuck beef. Spare ribs ham turkey bacon meatball burgdoggen capicola alcatra pastrami tongue frankfurter chicken fatback. Pork loin tail filet mignon, pig turkey pastrami pork pork chop venison.
+                  
+                  Short ribs picanha burgdoggen short loin beef ribs sausage filet mignon, ham tenderloin shank biltong t-bone. Tri-tip tongue pig kielbasa, venison landjaeger jerky corned beef. Ham swine ball tip brisket spare ribs pancetta salami tongue sausage buffalo capicola. Ham pastrami meatball pork chop turducken brisket leberkas frankfurter pork loin ball tip tri-tip. Capicola drumstick picanha bacon sirloin, frankfurter bresaola tail short ribs leberkas spare ribs turkey. Kielbasa pancetta flank, ball tip boudin pork bresaola. Beef pig kevin andouille strip steak jowl.
+                  <br>(End of Sushi section)<a href="#top"> Back To Top</a>
+                </p>
+          </section>
+        </div>
 
-(If you haven't already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and view your finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
+          
+      </div>
+    </div>
 
-Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, module3-solution or mod3_solution, etc. Create an index.html file inside the solution container folder, e.g., module3-solution/index.html.
-
-The implementation of the page you will be creating should follow the mockup illustrations shown below. You are provided 3 mockups: desktop and tablet (same), mobile, and mobile with mobile menu dropdown shown. Your implementation has to be JUST 1 page. In other words, you will be creating a single, responsive page.
-
-Your page must include a CSS file. No inline styles allowed. Your CSS file should be placed into a css folder under the solution container folder, e.g., module3-solution/css.
-
-For this assignment, you are to use Twitter Bootstrap CSS Framework as much as possible. I suggest you start with copying the starter bootstrap files and folders we discussed in Lecture 25 part 2. If you've cloned/downloaded the code example repository, it should be in the examples/Lecture25 folder. Copy the contents of examples/Lecture25 to your solution container folder (e.g., module3-solution) as a starting point..
-
-Since we are using Bootstrap for this assignment, instead of specifying pixel ranges, I will define our desktop, tablet, and mobile views in terms of Bootstrap CSS class prefixes, i.e., md, sm, and xs.
-
-Desktop mockup illustration should correspond to Bootstrap md-based classes
-Tablet mockup illustration should correspond to Bootstrap sm-based classes
-Mobile mockup illustration should correspond to Bootstrap xs-based classes
-Navbar: Create a navbar that scrolls away together with the page (the navbar should become invisible and is not fixed to the top when you scroll the page down). The navbar should have a company name (i.e., navbar-brand class) called "Food, LLC" that is aligned to the left side of the navbar. (See https://getbootstrap.com/docs/3.3/components/#navbar. Make the browser window narrower to see the mobile menu button appear in the first example shown at the provided link.)
-
-For desktop and tablet view, the navbar should not contain anything else. No other buttons should be visible. (Hint: use 'visible-xs' class.)
-
-Navbar - Mobile View: Create a simple menu button (3 horizontal bars). When the user clicks that button, a dropdown menu should appear (as illustrated in Mobile Open Menu illustration below.) The dropdown menu should contain 3 items: Chicken, Beef, and Sushi.
-
-The dropdown menu should take up the entire width of the browser window. Make sure the dropdown menu has a background color set that distinguishes it from the rest of the content.
-
-(Hint: See https://getbootstrap.com/docs/3.3/components/#navbar and Lecture 31 for examples on how to accomplish this.)
-
-Page Heading. The page heading that says Our Menu should be centered within the browser window. You must use a Bootstrap class to accomplish this.
-
-(Hint: look for a Bootstrap class that centers text, see https://getbootstrap.com/docs/3.3/css/#type-alignment.)
-
-Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)
-
-Both the tablet view and the desktop view of what's graded and required is the same. Here is the mockup illustration of the desktop & tablet version of the site (only required graded parts shown):
-
-Desktop and Tablet
-
-Here is the mockup illustration of the mobile view (only required graded parts are shown):
-
-mobile collapsed
-
-mobile expanded
-
-*** REQUIRED GRADED ASSIGNMENT ENDS HERE ***
-
-
-
-
-OPTIONAL, UNGRADED PORTION IS BELOW:
-
-The rest of this assignment is not graded and is optional, but it's good practice, so go for it if you have time. The solution to the optional ungraded portion of the assignment below does NOT have to be submitted.
-
-(OPTIONAL, NOT GRADED) Since in this optional part you will be implementing something more complex than a single section in the Bootstrap grid, remove that section before continuing.
-
-(OPTIONAL, NOT GRADED) As in previous assignment, the rest of your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use the Bootstrap Grid we discussed in Lecture 26 of Module 2 as well as numerous lectures of Module 3, including Lecture 35.)
-
-(OPTIONAL, NOT GRADED) Each section should be fairly large in height. You can achieve this by either filling it up with a lot of content text or simply setting its height property to something large like 700px. At the end of each section, provide a link that says "Back to Top". This link should jump the page back to "Our Menu" heading. (Hint: use a link that points to a section of the page discussed in Lecture 9 of Module 1.)
-
-(OPTIONAL, NOT GRADED) Each section should have an h3-based section heading which should be centered within the section. Use the same Bootstrap class you used for centering the page heading to center the section heading. Use the heading names shown in the mockup illustrations, i.e., "Chicken", "Beef", "Sushi".
-
-(OPTIONAL, NOT GRADED)Layout: In the desktop view, each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower.
-
-(Hint: use md-based grid column classes as discussed in Lecture 26 and Lecture 35 among others. It's a 12 grid-based system, so 3 in a row means each grid will take up 4 grid cells, i.e., col-md-4.) For a visual reference of this view, see the desktop mockup illustration below.
-
-(OPTIONAL, NOT GRADED)Layout: In the tablet view, the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself.
-
-(Hint: use 'sm'-based grid column classes and remember that you don't really need to define a separate 'row' class as you can achieve this layout within a single Bootstrap 'row' as discussed in Lecture 26 and Lecture 35, among others. To have 2 sections take up an entire row, i.e., all 12 columns, each one should take up 6 columns. To make the 3rd section take up the entire width of the browser window, i.e., 12 columns, use col-sm-12.)
-
-For a visual reference of this view, see the tablet mockup illustration below.
-
-(OPTIONAL, NOT GRADED)Layout: In the mobile view, each section should take up the entire row.
-
-(Hint: use xs-based grid column class. Since you need to take up the entire row, use col-xs-12.)
-
-For a visual reference of this view, see the mobile mockup illustration below.
-
-(OPTIONAL, NOT GRADED) Link the menu items "Chicken", "Beef", "Sushi" from the mobile-only menu drop down to jump to the part of the page those sections correspond to.
-
-MOCKUP ILLUSTRATIONS ARE BELOW:
-
-Please NOTE: these mockup illustrations show parts that are optional and not graded for this assignment. Please refer to the requirements above to confirm what parts of the mockup are required and graded and what parts are optional.
-
-Here is the mockup illustration of the desktop version of the site: Desktop - optional
-
-Here is the mockup illustration of the tablet version of the site:
-
-Tablet - optional
-
-Here is the mockup illustration of the mobile version of the site with the menu dropdown NOT open (on the left) and menu drop down open (on the right):
-
-Mobile - Optional (Closed) Mobile - Optional (Open)
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
